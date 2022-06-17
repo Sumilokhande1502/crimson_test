@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+:root 
+{
+--primaryColor: #7a28a0; // or any global you wish to share with components 
+--fontSize: 20px;
+--fontColor: black;
+--fontStyle: bold;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

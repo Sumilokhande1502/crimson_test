@@ -1,0 +1,24 @@
+.lang{
+    width: 10%;
+}
+
+.btn-register{
+    margin-right: 0;
+    background-color: var(--primaryColor);
+    color: white;
+}
+.btn-login{
+    width: 30%;
+    color: var(--primaryColor);
+    border-color: var(--primaryColor);
+}
+
+.navbar-nav{
+    font-size: var(--fontSize);
+        li{
+            a{
+                font-style: var(--fontStyle);
+                color: var(--fontColor);
+            }
+        }
+}
