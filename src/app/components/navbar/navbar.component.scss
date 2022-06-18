@@ -1,5 +1,9 @@
 .lang{
     width: 10%;
+    mat-form-field{
+        border: none;
+    
+    }
 }
 
 .btn-register{
@@ -12,6 +16,9 @@
     color: var(--primaryColor);
     border-color: var(--primaryColor);
 }
+.navbar img{
+    margin-right: 19px;
+}
 
 .navbar-nav{
     font-size: var(--fontSize);
@@ -21,4 +28,61 @@
                 color: var(--fontColor);
             }
         }
+}
+
+.h-auto{
+    width: 80%;
+    .headline{
+        font-weight: 500;
+        width: 74%;
+        font-size: 57px;
+        overflow-wrap: break-word;
+        line-height: normal;
+    }
+
+    .subLanding{
+        color: var(--landingP);
+        font-size: 19px;
+        width: 78%;
+        line-height: 33px;;
+    }
+
+    .landing-btn{
+        width: 78%;
+        .landin-buttons{
+            width: 47%;
+            border-radius: 79px;
+            font-size: 21px;
+            height: 67px;
+        }
+    }
+
+    .btn-launch{
+        background-color:#9e45ad;
+        color: white;
+    }
+
+    .btn-report{
+        border: 2px solid #9e45ad;
+        // border:;
+        color: var(--primaryColor);
+    }
+
+}
+
+.subLandingF{
+    width: 98%;
+    .achievement{
+        font-size: 21px;
+        font-weight: 500;
+        p{
+            display: flex;
+            justify-content: space-between;
+            width: 107%;
+            align-items: center;
+        }
+        span{
+            font-size: 30px;
+        }
+    }
 }

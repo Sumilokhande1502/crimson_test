@@ -1,10 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+/*@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";*/
+
 :root 
 {
 --primaryColor: #7a28a0; // or any global you wish to share with components 
 --fontSize: 20px;
 --fontColor: black;
 --fontStyle: bold;
+--landingP: #717171;
+--cardBottom: #a452b2;
 }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.heading{
+    font-size: 40px !important;
+    font-weight: 500 !important;
+    margin-bottom: 44px !important;
+}
+.headlineColor{
+    color: #9e45ad;
+}

@@ -1,0 +1,8 @@
+<section class="mt-5">
+    <h1 class="heading">Why Choose Trinka Journal Finder</h1>
+    <div class="row d-flex justify-content-between mt-5">
+        <div class="col-md-4" *ngFor="let imgPath of imagePath">
+            <app-cards [imgPath]="imgPath"></app-cards>   
+        </div>
+    </div>
+</section>

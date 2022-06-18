@@ -1,17 +1,19 @@
 <div class="container">
-  <div class="row">
+  <section class="row">
     <div class="col-md-12 d-flex justify-content-end mt-3">
       <div class="lang d-flex justify-content-end">
-
-        <mat-select>
-          <mat-option value="English" selected>English</mat-option>
-          <mat-option value="Hindi">Hindi</mat-option>
-          <mat-option value="Marathi">Marathi</mat-option>
-        </mat-select>
+        <mat-form-field class="mb-0">
+          <mat-label>Language</mat-label>
+          <mat-select>
+            <mat-option value="English">English</mat-option>
+            <mat-option value="Hindi">Hindi</mat-option>
+            <mat-option value="Marathi">Marathi</mat-option>
+          </mat-select>
+        </mat-form-field>
       </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <img src="../../../assets/images/Trinka_Logo.PNG" width="20%" height="80" class="d-inline-block align-top" alt="">
+      <img src="../../../assets/images/Trinka_Logo.PNG" width="15%" height="80" class="d-inline-block align-top" alt="">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -56,5 +58,41 @@
           </div>
       </form>
       </nav>
-  </div>
+    </section>
+
+  <section class="row mt-4 mb-2">
+    <div class="col-md-12 d-flex">
+      <div class="h-auto">
+        <p class="headline">Find the <span class="headlineColor">Right Journal</span> to Publish Your Paper</p>
+        <p class="subLanding">Ensure maximum citations by submitting your paper to the right journal.
+          Comparing your paper's concepts against millions of past publications
+          and publication trends.</p>
+
+          <div class="landing-btn d-flex justify-content-between mt-4">
+            <button mat-raised-button class="landin-buttons btn-report">View Sample Report</button>
+            <button mat-raised-button class="landin-buttons btn-launch">Launch Journal Finder</button>
+          </div>
+      </div>
+      <div class="">
+        <img src="../../../assets/images/landing.png" alt="" class="mr-0" width="99%">
+      </div>
+    </div>
+    <div class="subLandingF d-flex justify-content-between mt-4">
+      <div class="achievement">
+        <p><span><fa-icon [icon]="faCoffee"></fa-icon></span> 170+ Million abstracts</p>
+      </div>
+      <div class="achievement">
+        <p><span><fa-icon [icon]="faHandPaper"></fa-icon></span> Million Open-Access full-text papers</p>
+      </div>
+      <div class="achievement">
+        <p><span><fa-icon [icon]="faDatabase"></fa-icon></span> Latest Database</p>
+      </div>
+      <div class="achievement">
+        <p><span><fa-icon [icon]="faBrain"></fa-icon></span> AI Driven Results</p>
+      </div>
+    </div>
+  </section>
+
+  <app-why-choose-trinka></app-why-choose-trinka>
+  <app-key-features></app-key-features>
 </div>

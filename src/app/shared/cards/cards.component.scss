@@ -1,0 +1,26 @@
+mat-card{
+    height: 450px;
+    border-bottom: var(--landingP);
+    border-radius: 11px;
+    border-bottom: 4px solid #a452b2;
+    h2{
+        font-size: 1.7em;
+    }
+    p{
+        color: var(--landingP);
+        font-size: 1.2em;
+    }
+    img{
+        width: 70%;
+    }
+}
+
+.mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.choose-card{
+    display: block;
+    align-items: center;
+}
+

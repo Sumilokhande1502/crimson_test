@@ -5,6 +5,10 @@ import { NavbarComponent } from './navbar.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSelectModule} from '@angular/material/select';
 
+
+import { SharedModule } from 'src/app/shared/shared.module';
+
+
 const routes: Routes = [
   {
     path: '',
@@ -13,12 +17,13 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [NavbarComponent],
+  declarations: [NavbarComponent,],
   imports: [
     RouterModule.forChild(routes),
     CommonModule,
     MatButtonModule,
-    MatSelectModule
+    MatSelectModule,
+    SharedModule
   ],
   exports: [RouterModule]
 })
